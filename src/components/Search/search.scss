@@ -1,0 +1,18 @@
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    width: 631px;
+    height: 52px;
+
+    background-color: rgba(90, 92, 102, 1);
+    color: rgba(178, 183, 191, 1);
+
+    img {
+        cursor: pointer;
+        width: 21px;
+        height: 21px;
+    }
+}

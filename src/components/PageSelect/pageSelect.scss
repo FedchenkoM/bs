@@ -1,0 +1,27 @@
+.select {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+
+    &__numbers-container{
+        display: flex;
+        width:100px;
+        justify-content: space-between;
+    }
+
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+
+    &_page{
+        background-color: grey;
+        color: white;
+        padding: 0 3px;
+    }
+}
+
